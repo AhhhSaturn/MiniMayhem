@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+    background-image: url(/Assets/img/bg.png);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 7s ease infinite;
+    -ms-animation: gradientBG 7s ease infinite;
+    animation: gradientBG 7s ease infinite;
+    overflow: none;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.sorryParent {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.sorry {
+    text-align: center;
+}
+
+.iframeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-logo {
+    margin: 10px;
+    padding: 0px;
+    color: #a7a7a7;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.currentPage {
+    text-shadow: 0px 0px 5px #00ff0d;
+}
+
+.page {
+    padding-right: 10px;
+    color: #727171;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+.navbar {
+    position: sticky;
+    background-color: #121114b6;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@-ms-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
