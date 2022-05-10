@@ -6,10 +6,10 @@ body {
 	font-family: "Exo", sans-serif;
 	color: #fff;
     background-image: url(/Assets/img/bg.png);
-    background-size: 400% 400%;
-    -webkit-animation: gradientBG 7s ease infinite;
-    -ms-animation: gradientBG 7s ease infinite;
-    animation: gradientBG 7s ease infinite;
+    /* background-size: 400% 400%; */
+    -webkit-animation: gradientBG 4s ease infinite;
+    -ms-animation: gradientBG 4s ease infinite;
+    animation: gradientBG 4s ease infinite;
     overflow: none;
     
 }
