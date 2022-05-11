@@ -6,11 +6,11 @@ body {
 	font-family: "Exo", sans-serif;
 	color: #fff;
     background-image: url(/Assets/img/bg.png);
-    /* background-size: 400% 400%; */
-    -webkit-animation: gradientBG 4s ease infinite;
-    -ms-animation: gradientBG 4s ease infinite;
-    animation: gradientBG 4s ease infinite;
-    overflow: none;
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 7s ease infinite;
+    -ms-animation: gradientBG 7s ease infinite;
+    animation: gradientBG 7s ease infinite;
+    overflow: hidden;
     
 }
 
@@ -68,6 +68,52 @@ h1 {
     padding-right: 25px;
 }
 
+.accountContainerParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.accountContainer{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(75, 23, 143);
+}
+
+.accountContainer:hover {
+    animation: liftUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.voteParent {
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.voteButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #e92f2f, #aa4205);
+}
+
+.voteButton:hover {
+    animation: liftUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
 .currentPage {
     text-shadow: 0px 0px 5px #00ff0d;
 }
@@ -122,4 +168,9 @@ h1 {
     100% {
         background-position: 0% 50%;
     }
+}
+
+@keyframes liftUp {
+    from { box-shadow: 0px 0px 0px #000000;}
+    to { box-shadow: 0px 0px 10px #000000;}
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <link href = '/Assets/main.css' rel = 'stylesheet' type = 'text/css'>
+            <meta charset='UTF-8'>
+            <title>MiniMayhem</title>
+            <script src = '/Assets/index.js' type = 'text/javascript'></script>
+            <link rel='icon' type='image/x-icon' href='/Assets/img/logo.png' />
+        </head>
+        <body>
+            <div class="navbar">
+                <a href="/"><img class="logo" src="/Assets/img/logo.png" alt="MiniMayhem"></a>
+                <form class="pages">
+                    <input class="page" type="button" value="Home" onclick="window.location.href='/'">
+                    <input class="currentPage page" type="button" value="Event" onclick="window.location.href='/event/'">
+                    <input class="page" type="button" value="Join" onclick="window.location.href='/join/'">
+                    <input class="page" type="button" value="Crew" onclick="window.location.href='/crew/'"> 
+                </form>
+            </div>
+            <form class="voteBody" id="voteBody">
+                <input list="games" name="games">
+                <datalist id="games">
+                  <option value="Parkour">
+                  <option value="Capture the flag">
+                  <option value="Building game">
+                  <option value="Spleef">
+                  <option value="Dropper">
+                  <option value="Maze">
+                  <option value="Escape Room">
+                  <option value="Death Run">
+                </datalist>
+                <input type="submit">
+            </form>
+            <script src = '/event/vote/index.js' type = 'text/javascript'></script>
+        </body>
+</html>
