@@ -37,9 +37,34 @@ body {
     height: 40px;
 }
 
+.userImageParent { 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 10px;
+} 
+
+.userImage { 
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+}
+
+.socialButton {
+    width: 32px;
+    height: 32px;
+}
+
+.userImageBorder { 
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #000000
+}
+
 .center {
     text-align: center;
     padding-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 h1 {
@@ -55,7 +80,7 @@ h1 {
     text-align: center;
 }
 
-.socialsContainter {
+.socialsContainer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
