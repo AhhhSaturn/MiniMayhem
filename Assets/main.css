@@ -50,6 +50,11 @@ h1 {
     text-align: center;
 }
 
+.socialsContainter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .iframeContainer {
     display: flex;
     justify-content: center;
