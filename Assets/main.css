@@ -61,6 +61,10 @@ h1 {
     width: 180px;
 }
 
+.irlName {
+    font-size: 10px;
+}
+
 .iframeContainer {
     display: flex;
     justify-content: center;
