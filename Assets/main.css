@@ -86,12 +86,15 @@ h1 {
 }
 
 .accountContainer{
-    width: 100px;
-    height: 120px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: flex-start;
+    height: 330px;
+    width: 290px;
+    display: flex;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 15%;
     background-color: rgb(75, 23, 143);
 }
 
