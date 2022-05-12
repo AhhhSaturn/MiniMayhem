@@ -39,6 +39,7 @@ body {
 
 .center {
     text-align: center;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -62,7 +63,7 @@ h1 {
 }
 
 p.irlName {
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .iframeContainer {
