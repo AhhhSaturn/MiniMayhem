@@ -9,9 +9,7 @@ body {
     background-size: 400% 400%;
     -webkit-animation: gradientBG 7s ease infinite;
     -ms-animation: gradientBG 7s ease infinite;
-    animation: gradientBG 7s ease infinite;
-    overflow: hidden;
-    
+    animation: gradientBG 7s ease infinite;    
 }
 
 .whatIs {
@@ -23,6 +21,25 @@ body {
     padding-left: 40px;
     width: 40px;
     height: 40px;
+}
+
+.applyContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.applyButton {
+    border-radius: 25px;
+    height: 30px;
+    width: 50%;
+    margin-left: 25%;
+    background: linear-gradient(180deg, #ffffff, #ec9696);
+}
+
+.applyButton:hover {
+    animation: liftUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .whatGames {
